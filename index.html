@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the stunning photography portfolio of a Malaysian photographer. Discover captivating landscapes, portraits, and more.">
+    <title>MarzawaniMazlan Portfolio - Malaysia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <!-- Google Fonts: Lobster -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lobster', cursive;
+        }
+    </style>
+  
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white py-6">
+        <div class="max-w-6xl mx-auto flex justify-between items-center px-4">
+            <h1 class="text-3xl font-bold">Marzawani Mazlan</h1>
+            <nav>
+                <a href="#hero" class="text-gray-200 hover:text-white ml-4">Home</a>
+                <a href="#features" class="text-gray-200 hover:text-white ml-4">Features</a>
+                <a href="#about" class="text-gray-200 hover:text-white ml-4">About</a>
+                <a href="#gallery" class="text-gray-200 hover:text-white ml-4">Gallery</a>
+                <a href="#services" class="text-gray-200 hover:text-white ml-4">Services</a>
+                <a href="#testimonials" class="text-gray-200 hover:text-white ml-4">Testimonials</a>
+                <a href="#contact" class="text-gray-200 hover:text-white ml-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Swiper Carousel as Background -->
+    <section id="hero" class="relative bg-cover bg-center h-screen text-white flex items-center justify-center">
+        <!-- Swiper Carousel -->
+        <div class="swiper-container absolute inset-0">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/iqx-azmi-7YzEqh_L2xo-unsplash%20(1).jpg" alt="Photography 1" class="w-full h-full object-cover">
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/paul-vincent-roll-c61jL_NpAn8-unsplash%20(1).jpg" alt="Photography 2" class="w-full h-full object-cover">
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-1585408548-1024x1024.jpg" alt="Photography 3" class="w-full h-full object-cover">
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-2160378773-1024x1024.jpg" alt="Photography 4" class="w-full h-full object-cover">
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-2164142024-1024x1024.jpg" alt="Photography 5" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <!-- Add Pagination (Optional) -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Add Navigation (Optional) -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Content over Swiper -->
+        <div class="text-center relative z-10">
+            <h2 class="text-4xl font-bold">Capturing Moments, Creating Memories</h2>
+            <p class="mt-4 text-lg">Explore the art of photography through my lens</p>
+            <a href="#gallery" class="mt-6 inline-block bg-purple-600 text-white font-semibold py-2 px-4 rounded shadow hover:bg-purple-700">View Portfolio</a>
+        </div>
+    </section>
+
+    <script>
+        // Initialize Swiper
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true, // Looping effect
+        });
+    </script>
+
+<!-- Features Section -->
+<section id="features" class="py-12 bg-yellow-50" style="background-image: url('https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-945783476-1024x1024.jpg'); background-size: cover; background-position: center;">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-yellow-700">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-yellow-600">Professional Equipment</h3>
+                <p class="mt-2">Top-notch cameras and lenses to ensure exceptional quality.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-yellow-600">Creative Vision</h3>
+                <p class="mt-2">Unique perspectives that make every shot stand out.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-yellow-600">Wide Range of Genres</h3>
+                <p class="mt-2">Specializing in landscapes, portraits, wildlife, and events.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-12 bg-green-900"> <!-- Darker background color -->
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-white">About Me</h2> <!-- White text for contrast -->
+        
+        <!-- Flex container for text and image -->
+        <div class="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
+            <!-- Text content -->
+            <div class="text-center md:text-left md:w-1/2">
+                <p class="text-lg text-white">Hello! I'm Marzawani Mazlan! I am a passionate photographer based in Malaysia. With years of experience capturing stunning landscapes, emotive portraits, and vibrant wildlife, I strive to tell stories through my lens.</p>
+                <p class="text-lg mt-4 text-white">My work has been featured in various exhibitions and publications, showcasing the beauty of Malaysia and beyond.</p>
+            </div>
+
+            <!-- Image content -->
+            <div class="md:w-1/2 text-center">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-2162353312-1024x1024%20(1).jpg" alt="Photographer's Work" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-12 bg-purple-50">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-purple-700">Gallery</h2>
+
+        <!-- Grid Layout for Gallery -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-- Image 1 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-537623350-1024x1024%20(1).jpg" alt="Landscape" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Landscape
+                </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/chi-n-ph-m-ox82rWJcRno-unsplash.jpg" alt="Portrait" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Portrait
+                </div>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/tim-morgan-sirxAuAqHxA-unsplash%20(1).jpg" alt="Wildlife" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Wildlife
+                </div>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-1470970690-1024x1024.jpg" alt="Events" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Event
+                </div>
+            </div>
+
+            <!-- Image 5 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/abdelrahman-ismail-ceyssauPdrM-unsplash%20(1).jpg" alt="Streets" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Street
+                </div>
+            </div>
+
+            <!-- Image 6 -->
+            <div class="relative group">
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/daniel-k-cheung-cPF2nlWcMY4-unsplash%20(1).jpg" alt="Macro" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white text-xl font-semibold transition-opacity duration-300">
+                    Macro
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Services Section -->
+<section id="services" class="py-12 bg-red-50" style="background-image: url('https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/natalya-zaritskaya-SIOdjcYotms-unsplash%20(1).jpg'); background-size: cover; background-position: center;">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-red-700">Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-red-600">Wedding Photography</h3>
+                <p class="mt-2">Capture your special day with timeless photos.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-red-600">Event Coverage</h3>
+                <p class="mt-2">High-quality photography for corporate or personal events.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-red-600">Portrait Sessions</h3>
+                <p class="mt-2">Beautiful portraits for personal or professional use.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-red-600">Custom Projects</h3>
+                <p class="mt-2">Tailored photography solutions to meet your unique needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-12 bg-blue-50">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-700">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Testimonial Card for Aisha -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <!-- Image for Aisha -->
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-1211282431-1024x1024.jpg" alt="Aisha's Wedding Photo" class="rounded-lg shadow-lg w-full mb-4">
+                <p class="italic text-gray-600">"Absolutely stunning photos! They perfectly captured our wedding day."</p>
+                <p class="mt-4 font-semibold text-blue-600">- Aisha&Farhan</p>
+            </div>
+
+            <!-- Testimonial Card for Daniel -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <!-- Image for Daniel -->
+                <img src="https://cdn.glitch.global/1bbd6c35-ec5c-44a8-940d-b423781ba1be/istockphoto-1297752571-1024x1024.jpg?v=1735175433706" alt="Daniel's Portrait" class="rounded-lg shadow-lg w-full mb-4">
+                <p class="italic text-gray-600">"Professional and creative! The portraits exceeded my expectations."</p>
+                <p class="mt-4 font-semibold text-blue-600">- Daniel Lee</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-green-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-green-700">Contact Me</h2>
+            <form action="#" method="POST" class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="name" class="block font-semibold text-green-600">Name</label>
+                        <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-lg p-2 mt-1" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block font-semibold text-green-600">Email</label>
+                        <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-lg p-2 mt-1" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label for="message" class="block font-semibold text-green-600">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full border border-gray-300 rounded-lg p-2 mt-1" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="mt-4 bg-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-600">Send Message</button>
+            </form>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="text-center md:text-left">
+                    <h3 class="text-xl font-bold text-green-600 mb-4">Welcome to My Studio (Appointment Required)</h3>
+                    <p><strong>Address:</strong> 123 Photography Lane, Kuala Lumpur, Malaysia</p>
+                    <p><strong>Contact Number:</strong> +603 - 1234 5678</p>
+                    <p><strong>Studio Hours:</strong> Mon - Fri, 10:00 AM - 8:00 PM</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-green-600 mb-4">Location Map</h3>
+                    <div class="border rounded-lg shadow-lg overflow-hidden">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.20346331561!2d101.69232846547347!3d3.139003073732437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49bd6d7e3cdb%3A0x2cb3e4b8d5648f92!2sKuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2s!4v1642624874908!5m2!1sen!2s" 
+                            width="100%" 
+                            height="250" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <h3 class="text-xl font-bold text-green-600 mb-4">Follow Me</h3>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-green-600">
+                        <img src="instagram-thumbnail.png" alt="Instagram" class="w-10 h-10">
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-green-600">
+                        <img src="linkedin-thumbnail.png" alt="LinkedIn" class="w-10 h-10">
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-green-600">
+                        <img src="facebook-thumbnail.png" alt="Facebook" class="w-10 h-10">
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-green-600">
+                        <img src="tiktok-thumbnail.png" alt="TikTok" class="w-10 h-10">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="py-12 bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white text-center">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-4">Let's Work Together!</h2>
+            <p class="mb-6">Contact me today to discuss your photography needs and ideas.</p>
+            <a href="mailto:photographer@example.com" class="bg-white text-purple-700 font-semibold py-3 px-6 rounded shadow hover:bg-gray-200">Email Me</a>
+        </div>
+    </section>
+
+    <footer class="bg-purple-800 text-white py-4 text-center">
+        <p>&copy; 2024 Marzawani Mazlan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
